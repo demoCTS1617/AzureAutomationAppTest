@@ -1,11 +1,12 @@
 package Apps;
 
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 //import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class MyWebApp {
+public class MyWebAppTest {
   @Test
   public void verifyTitle() throws InterruptedException {
 	  WebDriver driver = new ChromeDriver();
@@ -15,7 +16,7 @@ public class MyWebApp {
 	  
 	  System.out.println("Title is "+title);
 
-	 // Assert.assertEquals(title, "My N Login Page");
+	 //Assert.asserttru(title, "My N Login Page");
 	  
 	  
 	  Thread.sleep(2000);

@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-06-26T14:54:13 IST" name="Suite" finished-at="2023-06-26T14:54:20 IST" duration-ms="7163">
+  <suite started-at="2023-06-26T12:43:41Z" name="Suite" finished-at="2023-06-26T12:43:46Z" duration-ms="5959">
     <groups>
     </groups>
-    <test started-at="2023-06-26T14:54:13 IST" name="Test" finished-at="2023-06-26T14:54:20 IST" duration-ms="7163">
-      <class name="Apps.MyWebApp">
-        <test-method signature="verifyTitle()[pri:0, instance:Apps.MyWebApp@3d74bf60]" started-at="2023-06-26T14:54:13 IST" name="verifyTitle" finished-at="2023-06-26T14:54:20 IST" duration-ms="7130" status="PASS">
+    <test started-at="2023-06-26T12:43:41Z" name="Test" finished-at="2023-06-26T12:43:46Z" duration-ms="5959">
+      <class name="Apps.MyWebAppTest">
+        <test-method signature="verifyTitle()[pri:0, instance:Apps.MyWebAppTest@5149d738]" started-at="2023-06-26T18:13:41Z" name="verifyTitle" finished-at="2023-06-26T18:13:46Z" duration-ms="5946" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTitle -->
-      </class> <!-- Apps.MyWebApp -->
+      </class> <!-- Apps.MyWebAppTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

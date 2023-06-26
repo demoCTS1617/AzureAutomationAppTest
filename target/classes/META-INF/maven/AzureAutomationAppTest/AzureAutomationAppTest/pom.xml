@@ -1,11 +1,11 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <groupId>AzureAutomationAppTest</groupId>
-  <artifactId>AzureAutomationAppTest</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
-  <name>AzureAutomationAppTest</name>
-  <description>AzureAutomationAppTest</description>
-  <build>
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>AzureAutomationAppTest</groupId>
+	<artifactId>AzureAutomationAppTest</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>AzureAutomationAppTest</name>
+	<description>AzureAutomationAppTest</description>
+	<build>
 		<pluginManagement>
 			<plugins>
 				<plugin>
@@ -32,7 +32,7 @@
 		<dependency>
 			<groupId>org.testng</groupId>
 			<artifactId>testng</artifactId>
-			<version>7.7.1</version>
+			<version>6.11</version>
 			<scope>test</scope>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
@@ -41,5 +41,6 @@
 			<artifactId>selenium-java</artifactId>
 			<version>4.9.1</version>
 		</dependency>
+		
 	</dependencies>
 </project>
